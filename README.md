@@ -12,8 +12,8 @@ This project is interesting to me because I've always wanted to learn how to bui
 
 ## 2. Check it out live
 **Link:** [link](rough-mountain-2988.fly.dev)\
-Log in using...
-username: root
+Log in using...\
+username: root\
 password: password
 
 Notice: Currently the app allows anyone who logs in to create and delete phonebook entries. Please be mindful about what you input.
