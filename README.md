@@ -6,7 +6,7 @@
 This project is a full-stack website that models a simple phonebook. It allows a user to log in and then create and delete phonebook
 entries and filter entries. The goal of this project was to understand how to create a back-end to a website and then link it to the front-end. As a result, there is currently no styling work done.
 
-The project is built using the MERN stack. It is still a work in progress but it has been a massive learning opportunity for me on how websites are built from the front-end and all the way to deploying it on the web.
+The project is built using the MERN stack. It is still a work in progress but it has been a massive learning opportunity for me on how websites are built from the front-end and all the way to deploying it on the web on Fly.io.
 
 This project is interesting to me because I've always wanted to learn how to build my own website from the ground up. It's also exciting to see how user authentication, specifically through JSON web tokens, works. I've been able to learn a lot about the many different choices one may face when deciding how to implement different features of a website. I've also been able to learn how to create a front-end and a back-end separately and then merge the two together.
 
