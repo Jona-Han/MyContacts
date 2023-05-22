@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY0NmFiY2ZkMDFkYzY4OTFkY2QyM2M4NSIsImlhdCI6MTY4NDcxODAzNSwiZXhwIjoxNjg0NzIxNjM1fQ.2byhRbC186OUAyGA9WJgcEp9xk3bVzv0RLEIYwBNxuI
+
+{
+    "name": "John Smith",
+    "number": "123456789",
+    "userId": "6404372de256707d01dfa93f"
+}
