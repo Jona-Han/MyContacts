@@ -11,7 +11,7 @@ The project is built using the MERN stack. It is still a work in progress but it
 This project is interesting to me because I've always wanted to learn how to build my own website from the ground up. It's also exciting to see how user authentication, specifically through JSON web tokens, works. I've been able to learn a lot about the many different choices one may face when deciding how to implement different features of a website. I've also been able to learn how to create a front-end and a back-end separately and then merge the two together.
 
 ## 2. Check it out live
-**Link:** [link](https://www.rough-mountain-2988.fly.dev)
+**Link:** [link](rough-mountain-2988.fly.dev)\
 Log in using...
 username: root
 password: password
