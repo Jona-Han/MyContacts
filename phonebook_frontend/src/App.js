@@ -5,6 +5,7 @@ import Filter from './components/Filter'
 import Numbers from './components/Numbers'
 import personsService from './services/persons'
 import loginService from './services/login'
+import "./css/App.css"
 
 const App = () => {
   const [persons, setPersons] = useState([])
@@ -83,21 +84,35 @@ const App = () => {
   )
 
   return (
-    <div>
+    <div className="container">
       <h1>Phonebook</h1>
-      <Notification message={errorMessage} />
-      {!user && loginForm()} 
-      {user && 
-        <div>
-          <p>{user.name} logged in</p>
-          <Filter persons={persons} setToShow={setToShow} />
-          <h2>Add a new contact</h2>
-          <PersonForm persons={persons} setPersons={setPersons} setToShow={setToShow} />
-          <h2>Numbers</h2>
-          <Numbers people={peopleToShow} setPersons={setPersons} setToShow={setToShow} />
+      <div className="error-message">
+        <Notification message={errorMessage} />
+      </div>
+      {!user && (
+        <div className="login-form">
+          {loginForm()}
         </div>
-      }
+      )}
+      {user && (
+        <div>
+          <div className="logged-in-user">
+            <p>{user.name} logged in</p>
+          </div>
+          <div className="filter">
+            <Filter persons={persons} setToShow={setToShow} />
+          </div>
+          <h2>Add a new contact</h2>
+          <div className="person-form">
+            <PersonForm persons={persons} setPersons={setPersons} setToShow={setToShow} />
+          </div>
+          <h2>Numbers</h2>
+          <div className="numbers">
+            <Numbers people={peopleToShow} setPersons={setPersons} setToShow={setToShow} />
+          </div>
+        </div>
+      )}
     </div>
-  )
+  );
 }
 export default App
