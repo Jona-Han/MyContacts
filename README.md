@@ -10,15 +10,7 @@ The project is built using the MERN stack. It is still a work in progress but it
 
 This project is interesting to me because I've always wanted to learn how to build my own website from the ground up. It's also exciting to see how user authentication, specifically through JSON web tokens, works. I've been able to learn a lot about the many different choices one may face when deciding how to implement different features of a website. I've also been able to learn how to create a front-end and a back-end separately and then merge the two together.
 
-## 2. Check it out live
-**Link:** [link](https://rough-mountain-2988.fly.dev)\
-Log in using...\
-username: root\
-password: password
-
-Notice: Currently the app allows anyone who logs in to create and delete phonebook entries. Please be mindful about what you input.
-
-## 3. Technologies used
+## 2. Technologies used
 - React : React was used to build a simple front-end UI. It was chosen in order to understand how to build single page applications.
 - Axios.js : Axios was used to easily make API requests from the front-end. Axios was chosen over alternatives like Fetch due to its ease of use
 - Json-server : This node package was used to model a fake back-end to initially test the front-end's HTTP requests.
@@ -31,7 +23,7 @@ Notice: Currently the app allows anyone who logs in to create and delete phonebo
 - Fly.IO : This website was deployed using fly.io. Fly.io was selected because it is free to use and has an easy user interface.
 
 
-## 4. Images
+## 3. Images
 Login
 <img width="1440" alt="Screenshot 2023-07-09 at 2 15 13 AM" src="https://github.com/Jona-Han/PasswordManager/assets/87393036/321ad3d2-f511-4aac-9759-edbea9bc8d0e">
 
