@@ -1,6 +1,6 @@
 # Phonebook
 
-## STATUS: WIP
+## STATUS: Complete
 
 ## 1. Summary
 This project is a full-stack website that models a simple phonebook. It allows a user to log in and then create and delete phonebook
